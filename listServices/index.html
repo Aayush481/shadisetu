@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>ShaadiSetu Vendor Listing</title>
+  <link rel="stylesheet" href="style.css" />
+</head>
+<body>
+  <header>
+    <h1>List your services on ShaadiSetu</h1>
+    <p>Reach brides and families in your city — no social media, no paid ads.</p>
+    <button id="createListing">Create a free listing</button>
+    <button id="whatsappContact">Contact us via WhatsApp</button>
+  </header>
+
+  <main class="container">
+    <section class="form-section">
+      <form id="vendorForm">
+        <!-- Step 1: Business Basics -->
+        <fieldset>
+          <legend>Business Basics</legend>
+          <input type="text" name="businessName" placeholder="Business Name" required />
+          <input type="text" name="ownerName" placeholder="Owner Name" required />
+          <input type="text" name="city" placeholder="City / Service Area" required />
+          <select name="category" multiple required>
+            <option>Photographer</option>
+            <option>Makeup Artist</option>
+            <option>Caterer</option>
+            <!-- Add more categories -->
+          </select>
+          <input type="tel" name="phone" placeholder="Phone Number" required />
+          <input type="email" name="email" placeholder="Email (optional)" />
+        </fieldset>
+
+        <!-- Step 2: Services & Pricing -->
+        <fieldset>
+          <legend>Services & Pricing</legend>
+          <div id="serviceRows">
+            <!-- Repeatable service row -->
+            <input type="text" name="serviceName" placeholder="Service Name" required />
+            <input type="text" name="serviceDesc" placeholder="Short Description" />
+            <input type="number" name="price" placeholder="Price" required />
+          </div>
+        </fieldset>
+
+        <!-- Step 3: Photos -->
+        <fieldset>
+          <legend>Photos & Gallery</legend>
+          <input type="file" name="coverImage" accept="image/*" required />
+          <input type="file" name="galleryImages" accept="image/*" multiple />
+        </fieldset>
+
+        <!-- Step 4: Review & Publish -->
+        <fieldset>
+          <legend>Review & Publish</legend>
+          <label><input type="checkbox" name="terms" required /> Accept terms</label>
+          <button type="submit">Publish Listing</button>
+          <button type="button">Save as Draft</button>
+        </fieldset>
+      </form>
+    </section>
+
+    <aside class="preview-section">
+      <h2>Live Preview</h2>
+      <div id="previewCard">
+        <!-- JS will populate this -->
+      </div>
+    </aside>
+  </main>
+
+  <script src="script.js"></script>
+</body>
+</html>

@@ -1,0 +1,125 @@
+ <!doctype html>
+<html lang="en">
+
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width,initial-scale=1" />
+  <title>Amba Caterer — Collection</title>
+
+  <link rel="stylesheet" href="fashion.css">
+</head>
+
+<body>
+  <main class="container">
+
+    <header class="topbar">
+      <button id="backBtn" class="btn btn-ghost">← Back</button>
+      <div class="breadcrumb">Muzaffarnagar › Caterer › Amba Caterer</div>
+    </header>
+
+    <section class="hero card" aria-label="Shop header">
+      <div id="heroMedia" class="hero-media" style="background-image:url('https://www.tastefulspace.com/wp-content/uploads/2020/08/wedding-caterer.jpg')"></div>
+
+      <div class="hero-body">
+        <h1 id="shopName" class="shop-name">Amba Caterer</h1>
+        <div class="meta"><strong>Owner:</strong> <span id="shopOwner">Mrs. Amba</span></div>
+        <div id="shopAddress" class="address">Civil Lines, Muzaffarnagar</div>
+        <div id="shopTag" class="tagline">Authentic taste and professional catering services for all occasions</div>
+
+        <div class="contact-row">
+          <a id="callBtn" class="btn" href="tel:+919899000003">Call +91-98990-00003</a>
+          <button id="whatsappBtn" class="btn btn-outline">Message</button>
+          <button id="bookBtn" class="btn btn-outline">Book Now</button>
+        </div>
+
+        <div class="small"><strong>Price range:</strong> <span id="priceRange">₹350 - ₹1,400 per plate</span></div>
+      </div>
+    </section>
+
+    <section class="main">
+      <div class="left-col">
+        <article class="card">
+          <h2 class="section-title">Menu Gallery</h2>
+          <div id="gallery" class="gallery-grid" aria-live="polite">
+            <a class="gallery-item"><img src="https://tse1.mm.bing.net/th/id/OIP.j2Uhz5dRFIURvd-OLbCykQHaGL?r=0&w=600&h=500&rs=1&pid=ImgDetMain&o=7&rm=3" alt="Buffet Setup 1"></a>
+            <a class="gallery-item"><img src="https://tse4.mm.bing.net/th/id/OIP.HQrY-tmopx7ujs1VD5MpLQHaEA?r=0&w=1292&h=700&rs=1&pid=ImgDetMain&o=7&rm=3" alt="Buffet Setup 2"></a>
+            <a class="gallery-item"><img src="https://tse3.mm.bing.net/th/id/OIP.U80GmfinBqdDbCZlItKK-AHaE7?r=0&w=1280&h=853&rs=1&pid=ImgDetMain&o=7&rm=3" alt="Buffet Setup 3"></a>
+            <a class="gallery-item"><img src="https://tse2.mm.bing.net/th/id/OIP.lLRQJRlXlU_aE4Xd4Ly_CgHaE8?r=0&w=1000&h=667&rs=1&pid=ImgDetMain&o=7&rm=3" alt="Buffet Setup 4"></a>
+          </div>
+        </article>
+
+        <article class="card">
+          <h2 class="section-title">Price & Services</h2>
+          <div class="price-list">
+            <div class="price-row"><span class="price-type">Standard Veg Menu</span><span class="price-val">₹350 onwards</span></div>
+            <div class="price-row"><span class="price-type">Premium Veg Menu</span><span class="price-val">₹600 onwards</span></div>
+            <div class="price-row"><span class="price-type">Non-Veg Menu</span><span class="price-val">₹900 onwards</span></div>
+            <div class="price-row"><span class="price-type">Wedding Royal Buffet</span><span class="price-val">₹1,400 onwards</span></div>
+          </div>
+        </article>
+
+        <article class="card booking">
+          <h2 class="section-title">Quick Booking</h2>
+          <form id="bookingForm">
+            <input id="bname" type="text" placeholder="Your name" required>
+            <div class="row">
+              <input id="bphone" type="tel" placeholder="Mobile number" required>
+              <select id="btype" aria-label="Select type">
+                <option value="veg">Veg Menu</option>
+                <option value="nonveg">Non-Veg Menu</option>
+                <option value="buffet">Wedding Buffet</option>
+              </select>
+            </div>
+            <textarea id="bnote" rows="3" placeholder="Event date, location, guest count"></textarea>
+            <button class="btn" type="submit">Send Request</button>
+            <div id="bookingMsg" class="small" aria-live="polite" style="display:none;color:green;margin-top:6px;"></div>
+          </form>
+        </article>
+
+        <article class="card">
+          <h2 class="section-title">Reviews</h2>
+          <div id="reviews" class="reviews">
+            <div class="review"><strong>Karan</strong> — Superb taste, authentic spices, and great service. Everyone loved the dinner.</div>
+            <div class="review"><strong>Neha</strong> — The catering staff was very professional, and food quality was excellent.</div>
+          </div>
+        </article>
+      </div>
+
+      <aside class="sidebar">
+        <div class="card">
+          <h3>Contact & Visit</h3>
+          <div class="contact-info">
+            <div><strong>Phone:</strong> <a id="phoneLink" href="tel:+919899000003">+91-98990-00003</a></div>
+            <div><strong>Shopkeeper:</strong> <span id="owner">Mrs. Amba</span></div>
+            <div><strong>Address:</strong>
+              <div id="addressShort">Civil Lines, Muzaffarnagar</div>
+            </div>
+            <div class="small">We provide authentic menus and live counters for weddings and events. Book in advance for best service.</div>
+          </div>
+
+          <div class="sidebar-actions">
+            <button id="directionsBtn" class="btn btn-outline">Get Directions</button>
+            <a id="saveBtn" class="btn btn-ghost" href="#" download>Save Details</a>
+          </div>
+        </div>
+
+        <div class="card" style="margin-top:12px;">
+          <h3>Map</h3>
+          <div class="map-placeholder">Map placeholder — Google Maps</div>
+        </div>
+      </aside>
+    </section>
+  </main>
+
+  <div id="lightbox" class="lightbox" aria-hidden="true">
+    <img id="lightboxImg" src="" alt="Large image">
+    <div>
+      <p class="description"></p>
+      <p class="price"></p>
+    </div>
+  </div>
+
+  <script src="shop-collection.js"></script>
+</body>
+
+</html>

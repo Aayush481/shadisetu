@@ -1,0 +1,275 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>ShaadiSetu</title>
+  <link rel="stylesheet" href="style.css" />
+</head>
+
+<body>
+
+  <!-- 🌸 Navigation -->
+  <nav>
+    <div class="logo">
+      <svg width="220" height="50" viewBox="0 0 220 80" xmlns="http://www.w3.org/2000/svg">
+        <path d="M20 60 Q40 10 60 60 T100 60" fill="none" stroke="#C71585" stroke-width="4" />
+        <path
+          d="M130 40 C130 30, 140 30, 140 40 C140 50, 130 50, 130 40 M140 40 C140 30, 150 30, 150 40 C150 50, 140 50, 140 40"
+          fill="none" stroke="#FF69B4" stroke-width="2" />
+        <text x="20" y="75" font-family="Poppins, sans-serif" font-size="20" fill="#333"
+          font-weight="bold">ShaadiSetu</text>
+      </svg>
+    </div>
+    <div class="nav-items-container">
+      <ul class="nav-links">
+        <li><a href="#">Home</a></li>
+        <li><a href="#">About us</a></li>
+        <li><a href="#">Services</a></li>
+        <li><a href="#">Contact us</a></li>
+      </ul>
+      <button class="login-btn">Login</button>
+    </div>
+  </nav>
+
+  <!-- 💍 Hero Section -->
+  <section class="hero-section-container">
+    <div class="hero-section">
+      <div class="hero-left">
+        <h1>Every vendor deserves visibility. Every bride deserves choice.</h1>
+        <p>ShaadiSetu helps families discover verified wedding services by city, category, and budget — with images,
+          prices, and direct contact.</p>
+        <button class="cta-btn"><a href="#service-grid" style="text-decoration: none;">Get Started</a></button>
+      </div>
+      <div class="hero-right">
+        <img src="shadhisatu.png" alt="ShaadiSetu Hero Image" />
+      </div>
+    </div>
+  </section>
+
+  <!--  App Tour Section -->
+  <section class="app-tour" aria-labelledby="app-tour-title">
+    <div class="container">
+      <h2 id="app-tour-title">Explore ShaadiSetu — Features that make planning simple</h2>
+
+      <!-- feature highlight row -->
+      <div class="tour-grid">
+        <article class="tour-card">
+          <div class="icon">📸</div>
+          <h3>Verified Photographers</h3>
+          <p>High-quality portfolios, price estimates and direct contact — all city-filtered.</p>
+        </article>
+
+        <article class="tour-card">
+          <div class="icon">💃</div>
+          <h3>Bridal & Styling</h3>
+          <p>Browse bridal wear showcases, makeup artists and mehndi pros for every budget.</p>
+        </article>
+
+        <article class="tour-card">
+          <div class="icon">🏛️</div>
+          <h3>Venue Listings</h3>
+          <p>Venue photos, capacity and package previews to find a perfect match quickly.</p>
+        </article>
+
+        <article class="tour-card">
+          <div class="icon">💬</div>
+          <h3>Direct Messaging</h3>
+          <p>Message vendors instantly, ask questions, and request availability — no middlemen.</p>
+        </article>
+
+        <article class="tour-card">
+          <div class="icon">🧾</div>
+          <h3>Transparent Pricing</h3>
+          <p>Compare packages and see typical price ranges before you call or book.</p>
+        </article>
+
+        <article class="tour-card">
+          <div class="icon">⭐</div>
+          <h3>Reviews & Ratings</h3>
+          <p>Real user reviews help you shortlist reliable vendors with confidence.</p>
+        </article>
+      </div>
+
+
+      <div class="tour-extras">
+        <ul>
+          <li>Filter by city, budget, and occasion</li>
+          <li>Quick booking request with confirmation</li>
+          <li>Save favourites to your wedding shortlist</li>
+          <li>Vendor dashboard for listing management</li>
+        </ul>
+        <div class="tour-cta">
+          <a class="btn cta-btn" href="#service-grid">Get Started — Search vendors</a>
+          <a class="btn btn-outline" href="./listServices/index.html">List your services</a>
+        </div>
+      </div>
+
+
+      <div class="tour-carousel" aria-hidden="true">
+        <button class="carousel-prev" aria-label="Previous">‹</button>
+        <div class="carousel-track">
+          <!-- duplicate of a few cards for swipe -->
+          <article class="tour-card small">
+            <div class="icon">📸</div>
+            <h4>Photographers</h4>
+          </article>
+          <article class="tour-card small">
+            <div class="icon">💃</div>
+            <h4>Bridal</h4>
+          </article>
+          <article class="tour-card small">
+            <div class="icon">🏛️</div>
+            <h4>Venues</h4>
+          </article>
+          <article class="tour-card small">
+            <div class="icon">💬</div>
+            <h4>Message</h4>
+          </article>
+        </div>
+        <button class="carousel-next" aria-label="Next">›</button>
+      </div>
+    </div>
+  </section>
+
+
+  <div class="services">
+    <h1>Our Services</h1>
+    <h3>For families</h3>
+    <ul class="service-list">
+      <li><a href="">Makeup Artists</a></li>
+      <li><a href="">Mehndi Artists</a></li>
+      <li><a href="">Decorators</a></li>
+      <li><a href="">DJ Services</a></li>
+      <li><a href="">caterers</a></li>
+      <li><a href="">Photographers</a></li>
+      <li><a href="">Bride and groom wardrobe</a></li>
+      <li><a href="">Venues</a></li>
+    </ul>
+
+    <div class="service-grid" id = "service-grid">
+      <a href="./Garments section/garments.html"><div class="service-grid-card">
+      <img src="l1.jpg" alt="">
+      <p>Bride wardrobe</p>
+    </div></a>
+    
+    <div class="service-grid-card">
+      <img src="mehndhidecor.jpg" alt="">
+      <p>Mehndi Decorators</p>
+    </div>
+
+    <div class="service-grid-card">
+      <img src="makeup.webp" alt="">
+      <p>Makeup Artists</p>
+    </div>
+
+    
+       <a href="./Dj/sound.html"><div class="service-grid-card">
+      <img src="dj.jpg" alt="">
+     <p>DJ Services</p>
+      </div></a>
+
+  
+      <a href="./caterrers/caterr.html"> <div class="service-grid-card">
+      <img src="caterer.jpeg" alt=""> 
+      <p>caterer services</p>
+      </div></a>
+
+    
+        <a href="./photographer section/photo.html"><div class="service-grid-card">
+      <img src="photoG.jpeg" alt="">
+      <p>Photographers</p>
+        </div></a>
+
+    
+         <a href="./Garments section/garments.html"><div class="service-grid-card">
+      <img src="sher.jpg" alt="">
+     <p>Groom's wardrobe</p>
+        </div></a>
+    <div class="service-grid-card">
+      <img src="venue.png" alt="">  
+      <p>Venues</p>
+        </div>
+
+        <div class="service-grid-card">
+      <img src="mehndhi.jpg" alt="">
+      <p>Mehndhi Artists</p>
+        </div>
+          <div class="service-grid-card">
+      <img src="haldidecor.jpg" alt="">
+      <p>haldi Decor</p>
+        </div>
+          <div class="service-grid-card">
+      <img src="decor.webp" alt="">
+      <p>Decoration</p>
+        </div>
+
+        <div class="service-grid-card">
+      <img src="jwel.webp" alt="">  
+      <p>Jwellery</p>
+        </div>
+          
+          
+
+
+
+
+
+
+
+
+
+
+
+    </div>
+
+    <div class="vendors">
+      <h3 style="color: black; margin-bottom: 1rem;">For Vendors</br></h3>
+      <p>"List your services on ShaadiSetu to reach thousands of engaged couples actively searching for wedding vendors.
+        Our platform offers a user-friendly interface, secure payment options, and tools to manage your listings and
+        bookings efficiently. Join our community of trusted vendors and grow your business with us!"</p>
+       <button class="btnn">Create Account</button>
+    </div>
+
+
+  </div>
+
+
+  <div class="services" id="features">
+    <h1>Platform Features</h1>
+
+
+    <ul class="service-list">
+      <li>Photographer Directory</li>
+      <li>Bridal&Groom Wear Showcases</li>
+      <li>Venue Listings</li>
+      <li>Vendor Reviews & Ratings</li>
+      <li>Quick Booking Forms</li>
+    </ul>
+  </div>
+
+
+
+
+
+
+  <!--  Contact Section -->
+  <section class="contact-section">
+    <h2>Contact Us</h2>
+    <form class="contact-form">
+      <input type="text" placeholder="Your Name" required />
+      <input type="email" placeholder="Your Email" required />
+      <textarea placeholder="Your Message" rows="4" required></textarea>
+      <button type="submit">Send Message</button>
+    </form>
+  </section>
+
+  <!-- 🧡 Footer -->
+  <footer>
+    <p>&copy; 2025 ShaadiSetu. Made with love in India.</p>
+  </footer>
+
+</body>
+
+</html>

@@ -1,0 +1,146 @@
+<!doctype html>
+<html lang="en">
+
+<head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width,initial-scale=1" />
+    <title>Shivani Bridal Studio — Collection</title>
+
+    <link rel="stylesheet" href="shop1.css">
+</head>
+
+<body>
+    <main class="container">
+
+
+        <header class="topbar">
+            <button id="backBtn" class="btn btn-ghost">← Back</button>
+            <div class="breadcrumb">Deoband › Garments › Shivani Bridal Studio</div>
+        </header>
+
+
+        <section class="hero card" aria-label="Shop header">
+            <div id="heroMedia" class="hero-media" style="background-image:url('lshop1.jpg')"></div>
+
+            <div class="hero-body">
+                <h1 id="shopName" class="shop-name">Shivani Bridal Studio</h1>
+                <div class="meta"><strong>Owner:</strong> <span id="shopOwner">Mrs. Shivani Verma</span></div>
+                <div id="shopAddress" class="address">First Floor, Verma Residence, Near Masjid Road, Deoband</div>
+                <div id="shopTag" class="tagline">Hand-embroidered lehengas and custom blouses stitched from home;
+                    fittings by appointment</div>
+
+                <div class="contact-row">
+                    <a id="callBtn" class="btn" href="tel:+919412011223">Call +91-94120-11223</a>
+                    <button id="whatsappBtn" class="btn btn-outline">Message</button>
+                    <button id="bookBtn" class="btn btn-outline">Request Trial</button>
+                </div>
+
+                <div class="small"><strong>Price range:</strong> <span id="priceRange">₹8,000 - ₹45,000</span></div>
+            </div>
+        </section>
+
+
+        <section class="main">
+            <div class="left-col">
+                <article class="card">
+                    <h2 class="section-title">Collection Gallery</h2>
+                    <div id="gallery" class="gallery-grid" aria-live="polite">
+
+                        <a class="gallery-item"><img src="l1.jpg" alt="Lehenga 1"></a>
+                        <a class="gallery-item"><img src="l2.webp" alt="Lehenga 2"></a>
+                        <a class="gallery-item"><img src="l3.jpg" alt="Lehenga 3"></a>
+                        <a class="gallery-item"><img src="l4.jpg" alt="Lehenga 4"></a>
+
+                    </div>
+                </article>
+
+                <article class="card">
+                    <h2 class="section-title">Price & Services</h2>
+                    <div class="price-list">
+                        <div class="price-row"><span class="price-type">Simple Lehenga</span><span
+                                class="price-val">₹8,000 onwards</span></div>
+                        <div class="price-row"><span class="price-type">Zardozi/Gota Work</span><span
+                                class="price-val">₹18,000 onwards</span></div>
+                        <div class="price-row"><span class="price-type">Custom Blouse</span><span
+                                class="price-val">₹1,200 onwards</span></div>
+                        <div class="price-row"><span class="price-type">Stitching & Fittings</span><span
+                                class="price-val">Free (by appointment)</span></div>
+                    </div>
+                </article>
+
+                <article class="card booking">
+                    <h2 class="section-title">Quick Booking</h2>
+                    <form id="bookingForm">
+                        <input id="bname" type="text" placeholder="Your name" required>
+                        <div class="row">
+                            <input id="bphone" type="tel" placeholder="Mobile number" required>
+                            <select id="btype" aria-label="Select type">
+                                <option value="trial">Request trial</option>
+                                <option value="custom">Custom order</option>
+                                <option value="consult">Consultation</option>
+                            </select>
+                        </div>
+                        <textarea id="bnote" rows="3" placeholder="Short note (date, sizes, preferences)"></textarea>
+                        <button class="btn" type="submit">Send Request</button>
+                        <div id="bookingMsg" class="small" aria-live="polite"
+                            style="display:none;color:green;margin-top:6px;"></div>
+                    </form>
+                </article>
+
+                <article class="card">
+                    <h2 class="section-title">Reviews</h2>
+                    <div id="reviews" class="reviews">
+                        <div class="review"><strong>Ayesha</strong> — Beautiful embroidery and friendly service.
+                            delevery was on time.</div>
+                        <div class="review"><strong>Sanjay</strong> — Great Lengha tailoring; my sister was happy with
+                            the fit.</div>
+                    </div>
+                </article>
+            </div>
+
+            <aside class="sidebar">
+                <div class="card">
+                    <h3>Contact & Visit</h3>
+                    <div class="contact-info">
+                        <div><strong>Phone:</strong> <a id="phoneLink" href="tel:+919412011223">+91-94120-11223</a>
+                        </div>
+                        <div><strong>Shopkeeper:</strong> <span id="owner">Mrs. Shivani Verma</span></div>
+                        <div><strong>Address:</strong>
+                            <div id="addressShort">First Floor, Verma Residence, Near Masjid Road, Deoband</div>
+                        </div>
+                        <div class="small">Please call before visiting. Home-run boutique; trials by appointment.</div>
+                    </div>
+
+                    <div class="sidebar-actions">
+                        <button id="directionsBtn" class="btn btn-outline">Get Directions</button>
+                        <a id="saveBtn" class="btn btn-ghost" href="#" download>Save Details</a>
+                    </div>
+                </div>
+
+                <div class="card" style="margin-top:12px;">
+                    <h3>Map</h3>
+                    <div class="map-placeholder">Map placeholder — Google Maps </div>
+                </div>
+            </aside>
+        </section>
+    </main>
+
+
+
+    <div class="lightbox-con" aria-hidden="true">
+        <div id="lightbox" class="lightbox" aria-hidden="true">
+        <img id="lightboxImg" src="" alt="Large image">
+        <div class="description-box" id="description-box">
+            <p class="description"></p>
+            <p class="price"> </p>
+        </div>
+    </div>
+    </div>
+
+
+
+
+    <script src="shop-collection.js"></script>
+</body>
+
+</html>

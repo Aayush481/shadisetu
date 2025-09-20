@@ -1,0 +1,125 @@
+<!doctype html>
+<html lang="en">
+
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width,initial-scale=1" />
+  <title>Star DJ and Sound — Collection</title>
+
+  <link rel="stylesheet" href="fashion.css">
+</head>
+
+<body>
+  <main class="container">
+
+    <header class="topbar">
+      <button id="backBtn" class="btn btn-ghost">← Back</button>
+      <div class="breadcrumb">Deoband › Sound › Star DJ and Sound</div>
+    </header>
+
+    <section class="hero card" aria-label="Shop header">
+      <div id="heroMedia" class="hero-media" style="background-image:url('https://tse4.mm.bing.net/th/id/OIP.qH-0XTqopVrbxR5DzXFCyQHaFj?r=0&rs=1&pid=ImgDetMain&o=7&rm=3')"></div>
+
+      <div class="hero-body">
+        <h1 id="shopName" class="shop-name">Star DJ and Sound</h1>
+        <div class="meta"><strong>Owner:</strong> <span id="shopOwner">Mr. Sameer</span></div>
+        <div id="shopAddress" class="address">Civil Lines, Deoband</div>
+        <div id="shopTag" class="tagline">Professional DJ, Sound & Lighting Services for Weddings and Events</div>
+
+        <div class="contact-row">
+          <a id="callBtn" class="btn" href="tel:+919812345678">Call +91-98123-45678</a>
+          <button id="whatsappBtn" class="btn btn-outline">Message</button>
+          <button id="bookBtn" class="btn btn-outline">Book Now</button>
+        </div>
+
+        <div class="small"><strong>Price range:</strong> <span id="priceRange">₹6,000 - ₹30,000</span></div>
+      </div>
+    </section>
+
+    <section class="main">
+      <div class="left-col">
+        <article class="card">
+          <h2 class="section-title">Collection Gallery</h2>
+          <div id="gallery" class="gallery-grid" aria-live="polite">
+            <a class="gallery-item"><img src="https://media-api.xogrp.com/images/625ab9a6-172f-469c-a128-572adb44a7fc" alt="DJ Setup 1"></a>
+            <a class="gallery-item"><img src="https://tse4.mm.bing.net/th/id/OIP.AXrxfeN75k3xN_P-NH7wRgHaFi?r=0&w=800&h=598&rs=1&pid=ImgDetMain&o=7&rm=3" alt="DJ Setup 2"></a>
+            <a class="gallery-item"><img src="https://media-api.xogrp.com/images/b16a4133-cb24-4909-9dac-f3730723ac2e~sc_275.205" alt="DJ Setup 3"></a>
+            <a class="gallery-item"><img src="https://5.imimg.com/data5/SELLER/Default/2023/3/XL/ZX/ZW/184545542/dj-speaker-rental-services-500x500.jpg" alt="DJ Setup 4"></a>
+          </div>
+        </article>
+
+        <article class="card">
+          <h2 class="section-title">Price & Services</h2>
+          <div class="price-list">
+            <div class="price-row"><span class="price-type">Basic DJ Package (2 hrs)</span><span class="price-val">₹6,000 onwards</span></div>
+            <div class="price-row"><span class="price-type">Wedding DJ Setup</span><span class="price-val">₹18,000 onwards</span></div>
+            <div class="price-row"><span class="price-type">Lighting & Stage Effects</span><span class="price-val">₹4,000 onwards</span></div>
+            <div class="price-row"><span class="price-type">Full Sound System (Speakers + Mic)</span><span class="price-val">₹8,000 onwards</span></div>
+          </div>
+        </article>
+
+        <article class="card booking">
+          <h2 class="section-title">Quick Booking</h2>
+          <form id="bookingForm">
+            <input id="bname" type="text" placeholder="Your name" required>
+            <div class="row">
+              <input id="bphone" type="tel" placeholder="Mobile number" required>
+              <select id="btype" aria-label="Select type">
+                <option value="dj">Book DJ</option>
+                <option value="sound">Sound System</option>
+                <option value="lighting">Lighting Setup</option>
+              </select>
+            </div>
+            <textarea id="bnote" rows="3" placeholder="Event date, location, timings"></textarea>
+            <button class="btn" type="submit">Send Request</button>
+            <div id="bookingMsg" class="small" aria-live="polite" style="display:none;color:green;margin-top:6px;"></div>
+          </form>
+        </article>
+
+        <article class="card">
+          <h2 class="section-title">Reviews</h2>
+          <div id="reviews" class="reviews">
+            <div class="review"><strong>Ankit</strong> — Fantastic DJ! Crowd was fully engaged and enjoyed the beats.</div>
+            <div class="review"><strong>Simran</strong> — Great sound system and professional service. Highly recommend Star DJ.</div>
+          </div>
+        </article>
+      </div>
+
+      <aside class="sidebar">
+        <div class="card">
+          <h3>Contact & Visit</h3>
+          <div class="contact-info">
+            <div><strong>Phone:</strong> <a id="phoneLink" href="tel:+919812345678">+91-98123-45678</a></div>
+            <div><strong>Shopkeeper:</strong> <span id="owner">Mr. Sameer</span></div>
+            <div><strong>Address:</strong>
+              <div id="addressShort">Civil Lines, Deoband</div>
+            </div>
+            <div class="small">Available for weddings, receptions, parties, and corporate events. Book in advance for guaranteed service.</div>
+          </div>
+
+          <div class="sidebar-actions">
+            <button id="directionsBtn" class="btn btn-outline">Get Directions</button>
+            <a id="saveBtn" class="btn btn-ghost" href="#" download>Save Details</a>
+          </div>
+        </div>
+
+        <div class="card" style="margin-top:12px;">
+          <h3>Map</h3>
+          <div class="map-placeholder">Map placeholder — Google Maps</div>
+        </div>
+      </aside>
+    </section>
+  </main>
+
+  <div id="lightbox" class="lightbox" aria-hidden="true">
+    <img id="lightboxImg" src="" alt="Large image">
+    <div>
+      <p class="description"></p>
+      <p class="price"></p>
+    </div>
+  </div>
+
+  <script src="shop-collection.js"></script>
+</body>
+
+</html>
