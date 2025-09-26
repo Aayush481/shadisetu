@@ -1,0 +1,138 @@
+
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Sadhi Setu - About</title>
+  <style>
+    body {
+      margin: 0;
+      font-family: "Segoe UI", Arial, sans-serif;
+      background-color: linear-gradient(135deg, #eb909f, #cbcbdf);
+      color: #333;
+      height : 100vh ;
+    }
+
+    /* About Section */
+    #about {
+      background: linear-gradient(135deg, #eb909f, #cbcbdf);
+      padding: 80px 10%;
+      display: flex;
+      align-items: center;
+      height : 100vh;
+
+      justify-content: space-between;
+      flex-wrap: wrap;
+    }
+
+    /* Left Text Box */
+    .about-text {
+      flex: 1;
+      min-width: 300px;
+      max-width: 550px;
+    }
+
+    a button{
+
+    }
+    .about-text h2 {
+      font-size: 38px;
+      color: #b30059;
+      margin-bottom: 20px;
+      font-weight: bold;
+      text-shadow: 1px 1px 6px rgba(0,0,0,0.1);
+      position: relative;
+    }
+
+    .about-text h2::after {
+      content: "";
+      display: block;
+      width: 60px;
+      height: 4px;
+      background: #b30059;
+      margin: 12px 0;
+      border-radius: 2px;
+    }
+
+    .about-text p {
+      font-size: 18px;
+      line-height: 1.8;
+      margin-bottom: 18px;
+    }
+
+    .about-text strong {
+      color: #b30059;
+    }
+
+    /* Right Image */
+    .about-image {
+      flex: 1;
+      text-align: center;
+      min-width: 300px;
+    }
+
+    .about-image img {
+      width: 90%;
+      max-width: 450px;
+      border-radius: 20px;
+      box-shadow: 0 8px 20px rgba(0,0,0,0.15);
+    }
+     a button {
+      background: #b30059;
+      color: white;
+      border: none;
+      padding: 10px 20px;
+      border-radius: 5px;
+      cursor: pointer;
+      font-size: 16px;
+      transition: background 0.3s ease;
+    }
+
+
+    /* Responsive */
+    @media (max-width: 900px) {
+      #about {
+        flex-direction: column;
+        text-align: center;
+      }
+      .about-text h2::after {
+        margin: 12px auto;
+      }
+      .about-image {
+        margin-top: 30px;
+      }
+    }
+  </style>
+</head>
+<body>
+
+  <!-- About Section -->
+  <section id="about">
+    <!-- Left Text -->
+    <div class="about-text">
+      <h2>About Sadhi Setu</h2>
+      <p>
+        <strong>Sadhi Setu</strong> is a modern wedding platform that connects 
+        <b>wedding families</b> with <b>trusted vendors</b>. 
+        From photographers, decorators, and caterers to mehndi artists, musicians, and venues – 
+        everything you need for a wedding can be explored and booked on one platform.
+      </p>
+      <p>
+        Our vision is to make wedding planning stress-free, transparent, and memorable. 
+        We bring families and vendors together on a reliable system where 
+        communication is simple and trust is the foundation.
+      </p>
+      <p><b>Sadhi Setu – Your perfect partner for every wedding!</b></p>
+      <a href="/index.html" style="text-decoration: none;"><button>back to Home</button></a>
+    </div>
+
+    <!-- Right Image -->
+    <div class="about-image">
+      <img src="https://shadisetu-vendors.netlify.app/shadhisatu.png" alt="Wedding illustration">
+    </div>
+  </section>
+
+</body>
+</html>

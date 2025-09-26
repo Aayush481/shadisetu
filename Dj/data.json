@@ -1,0 +1,655 @@
+[
+   
+    {
+      "id": "deoband001",
+      "business_name": "Guru DJ Sound Service Centre",
+      "owner_name": "Rakesh Kumar",
+      "city": "Deoband",
+      "phone": "+91-9876543210",
+      "address": "Main Road, Deoband, UP",
+      "price_range": "₹8,000 – ₹15,000",
+      "services": [
+        {
+          "name": "Wedding DJ",
+          "description": "Full sound setup with lighting",
+          "price": "₹12,000"
+        }
+      ],
+      "gallery": [
+        "https://static.vecteezy.com/system/resources/previews/029/332/148/non_2x/ai-generative-dj-playing-and-mixing-music-in-nightclub-party-at-night-edm-dance-music-club-with-crowd-of-young-people-free-photo.jpg"
+      ],
+      "verified": true
+    },
+    {
+      "id": "deoband002",
+      "business_name": "Mahadev DJ Sound",
+      "owner_name": "Mahesh Verma",
+      "city": "Deoband",
+      "phone": "+91-9123456780",
+      "address": "Rampur Road, Deoband",
+      "price_range": "₹9,000 – ₹14,000",
+      "services": [
+        {
+          "name": "Sangeet DJ",
+          "description": "Bollywood + Punjabi mix",
+          "price": "₹10,500"
+        }
+      ],
+      "gallery": [
+        "https://static.vecteezy.com/system/resources/thumbnails/031/547/730/small_2x/a-dj-mixing-music-on-a-vintage-dj-setup-complete-with-turntables-mixers-and-colorful-disco-lights-capturing-the-energetic-atmosphere-of-eighties-parties-generative-ai-photo.jpeg"
+      ],
+      "verified": true
+    },
+    {
+      "id": "deoband003",
+      "business_name": "Shiv DJ Beats",
+      "owner_name": "Anil Chauhan",
+      "city": "Deoband",
+      "phone": "+91-9812345678",
+      "address": "Station Road, Deoband",
+      "price_range": "₹7,500 – ₹13,000",
+      "services": [
+        {
+          "name": "Engagement DJ",
+          "description": "Compact sound setup with LED lights",
+          "price": "₹9,000"
+        }
+      ],
+      "gallery": [
+        "https://static.vecteezy.com/system/resources/previews/024/929/662/non_2x/one-man-spinning-funky-beats-on-turntable-at-nightclub-generated-by-ai-free-photo.jpg"
+      ],
+      "verified": false
+    },
+    {
+      "id": "deoband004",
+      "business_name": "Fusion Sound DJ",
+      "owner_name": "Rohit Singh",
+      "city": "Deoband",
+      "phone": "+91-9876543233",
+      "address": "Opp. Police Station, Deoband",
+      "price_range": "₹10,000 – ₹16,000",
+      "services": [
+        {
+          "name": "Reception DJ",
+          "description": "Elegant playlist with ambient lighting",
+          "price": "₹13,000"
+        }
+      ],
+      "gallery": [
+        "https://static.vecteezy.com/system/resources/previews/024/929/662/non_2x/one-man-spinning-funky-beats-on-turntable-at-nightclub-generated-by-ai-free-photo.jpg"
+      ],
+      "verified": true
+    },
+    {
+      "id": "deoband005",
+      "business_name": "Royal Sound DJ",
+      "owner_name": "Vikas Yadav",
+      "city": "Deoband",
+      "phone": "+91-9876543244",
+      "address": "Market Chowk, Deoband",
+      "price_range": "₹9,000 – ₹15,000",
+      "services": [
+        {
+          "name": "DJ + Dhol Combo",
+          "description": "Fusion beats with live dhol",
+          "price": "₹14,000"
+        }
+      ],
+      "gallery": [
+        "https://static.vecteezy.com/system/resources/thumbnails/031/547/730/small_2x/a-dj-mixing-music-on-a-vintage-dj-setup-complete-with-turntables-mixers-and-colorful-disco-lights-capturing-the-energetic-atmosphere-of-eighties-parties-generative-ai-photo.jpeg"
+      ],
+      "verified": true
+    },
+    {
+      "id": "deoband006",
+      "business_name": "Thunder Beats DJ",
+      "owner_name": "Sandeep Rana",
+      "city": "Deoband",
+      "phone": "+91-9876543255",
+      "address": "Near Bus Depot, Deoband",
+      "price_range": "₹8,500 – ₹14,000",
+      "services": [
+        {
+          "name": "Haldi DJ",
+          "description": "Colorful lighting and upbeat tracks",
+          "price": "₹10,000"
+        }
+      ],
+      "gallery": [
+        "https://tse1.mm.bing.net/th/id/OIP.VmFGj_E8E_587HMQZ3QoRwHaEJ?w=1024&h=574&rs=1&pid=ImgDetMain&o=7&rm=3"
+      ],
+      "verified": false
+    },
+    {
+      "id": "deoband007",
+      "business_name": "Vibe Sound DJ",
+      "owner_name": "Manoj Tiwari",
+      "city": "Deoband",
+      "phone": "+91-9876543266",
+      "address": "Shiv Mandir Lane, Deoband",
+      "price_range": "₹9,000 – ₹16,000",
+      "services": [
+        {
+          "name": "Full Wedding DJ",
+          "description": "Complete sound and light management",
+          "price": "₹15,000"
+        }
+      ],
+      "gallery": [
+        "https://img.freepik.com/premium-photo/dj-heart-club_965238-4315.jpg"
+      ],
+      "verified": true
+    },
+    {
+      "id": "deoband008",
+      "business_name": "Echo Beats DJ",
+      "owner_name": "Nitin Chauhan",
+      "city": "Deoband",
+      "phone": "+91-9876543277",
+      "address": "Civil Lines, Deoband",
+      "price_range": "₹10,000 – ₹17,000",
+      "services": [
+        {
+          "name": "Mehndi DJ",
+          "description": "Soft lighting and curated playlist",
+          "price": "₹11,500"
+        }
+      ],
+      "gallery": [
+        "https://img.freepik.com/premium-photo/dj-heart-club_965238-4315.jpg"
+      ],
+      "verified": true
+    },
+    {
+      "id": "deoband009",
+      "business_name": "Bass Drop DJ",
+      "owner_name": "Ajay Malik",
+      "city": "Deoband",
+      "phone": "+91-9876543288",
+      "address": "Gandhi Road, Deoband",
+      "price_range": "₹9,500 – ₹15,500",
+      "services": [
+        {
+          "name": "DJ for Cocktail",
+          "description": "High-energy tracks with LED dance floor",
+          "price": "₹13,000"
+        }
+      ],
+      "gallery": [
+        "https://img.freepik.com/premium-photo/dj-heart-club_965238-4315.jpg"
+      ],
+      "verified": true
+    },
+    {
+      "id": "deoband010",
+      "business_name": "Rhythm Nation DJ",
+      "owner_name": "Kunal Joshi",
+      "city": "Deoband",
+      "phone": "+91-9876543299",
+      "address": "Near Railway Station, Deoband",
+      "price_range": "₹10,000 – ₹18,000",
+      "services": [
+        {
+          "name": "Grand Wedding DJ",
+          "description": "Premium sound and synchronized lighting",
+          "price": "₹17,000"
+        }
+      ],
+      "gallery": [
+        "https://img.freepik.com/premium-photo/dj-heart-club_965238-4315.jpg"
+      ],
+      "verified": true
+    },
+    {
+      "id": "deoband001",
+      "business_name": "Guru DJ Sound Service Centre",
+      "owner_name": "Rakesh Kumar",
+      "city": "Deoband",
+      "phone": "+91-9876543210",
+      "address": "Main Road, Deoband, UP",
+      "price_range": "₹8,000 – ₹15,000",
+      "services": [
+        {
+          "name": "Wedding DJ",
+          "description": "Full sound setup with lighting",
+          "price": "₹12,000"
+        }
+      ],
+      "gallery": [
+        "https://img.freepik.com/premium-photo/dj-heart-club_965238-4315.jpg"
+      ],
+      "verified": true
+    },
+    {
+      "id": "deoband002",
+      "business_name": "Mahadev DJ Sound",
+      "owner_name": "Mahesh Verma",
+      "city": "Deoband",
+      "phone": "+91-9123456780",
+      "address": "Rampur Road, Deoband",
+      "price_range": "₹9,000 – ₹14,000",
+      "services": [
+        {
+          "name": "Sangeet DJ",
+          "description": "Bollywood + Punjabi mix",
+          "price": "₹10,500"
+        }
+      ],
+      "gallery": [
+        "https://img.freepik.com/premium-photo/dj-heart-club_965238-4315.jpg"
+      ],
+      "verified": true
+    },
+    {
+      "id": "deoband003",
+      "business_name": "Shiv DJ Beats",
+      "owner_name": "Anil Chauhan",
+      "city": "Deoband",
+      "phone": "+91-9812345678",
+      "address": "Station Road, Deoband",
+      "price_range": "₹7,500 – ₹13,000",
+      "services": [
+        {
+          "name": "Engagement DJ",
+          "description": "Compact sound setup with LED lights",
+          "price": "₹9,000"
+        }
+      ],
+      "gallery": [
+        "https://img.freepik.com/premium-photo/dj-heart-club_965238-4315.jpg"
+      ],
+      "verified": false
+    },
+    {
+      "id": "deoband004",
+      "business_name": "Fusion Sound DJ",
+      "owner_name": "Rohit Singh",
+      "city": "Deoband",
+      "phone": "+91-9876543233",
+      "address": "Opp. Police Station, Deoband",
+      "price_range": "₹10,000 – ₹16,000",
+      "services": [
+        {
+          "name": "Reception DJ",
+          "description": "Elegant playlist with ambient lighting",
+          "price": "₹13,000"
+        }
+      ],
+      "gallery": [
+        "https://img.freepik.com/premium-photo/dj-heart-club_965238-4315.jpg"
+      ],
+      "verified": true
+    },
+    {
+      "id": "deoband005",
+      "business_name": "Royal Sound DJ",
+      "owner_name": "Vikas Yadav",
+      "city": "Deoband",
+      "phone": "+91-9876543244",
+      "address": "Market Chowk, Deoband",
+      "price_range": "₹9,000 – ₹15,000",
+      "services": [
+        {
+          "name": "DJ + Dhol Combo",
+          "description": "Fusion beats with live dhol",
+          "price": "₹14,000"
+        }
+      ],
+      "gallery": [
+        "https://img.freepik.com/premium-photo/dj-heart-club_965238-4315.jpg"
+      ],
+      "verified": true
+    },
+    {
+      "id": "deoband006",
+      "business_name": "Thunder Beats DJ",
+      "owner_name": "Sandeep Rana",
+      "city": "Deoband",
+      "phone": "+91-9876543255",
+      "address": "Near Bus Depot, Deoband",
+      "price_range": "₹8,500 – ₹14,000",
+      "services": [
+        {
+          "name": "Haldi DJ",
+          "description": "Colorful lighting and upbeat tracks",
+          "price": "₹10,000"
+        }
+      ],
+      "gallery": [
+        "https://img.freepik.com/premium-photo/dj-heart-club_965238-4315.jpg"
+      ],
+      "verified": false
+    },
+    {
+      "id": "deoband007",
+      "business_name": "Vibe Sound DJ",
+      "owner_name": "Manoj Tiwari",
+      "city": "Deoband",
+      "phone": "+91-9876543266",
+      "address": "Shiv Mandir Lane, Deoband",
+      "price_range": "₹9,000 – ₹16,000",
+      "services": [
+        {
+          "name": "Full Wedding DJ",
+          "description": "Complete sound and light management",
+          "price": "₹15,000"
+        }
+      ],
+      "gallery": [
+        "https://img.freepik.com/premium-photo/dj-heart-club_965238-4315.jpg"
+      ],
+      "verified": true
+    },
+    {
+      "id": "deoband008",
+      "business_name": "Echo Beats DJ",
+      "owner_name": "Nitin Chauhan",
+      "city": "Deoband",
+      "phone": "+91-9876543277",
+      "address": "Civil Lines, Deoband",
+      "price_range": "₹10,000 – ₹17,000",
+      "services": [
+        {
+          "name": "Mehndi DJ",
+          "description": "Soft lighting and curated playlist",
+          "price": "₹11,500"
+        }
+      ],
+      "gallery": [
+        "https://img.freepik.com/premium-photo/dj-heart-club_965238-4315.jpg"
+      ],
+      "verified": true
+    },
+    {
+      "id": "deoband009",
+      "business_name": "Bass Drop DJ",
+      "owner_name": "Ajay Malik",
+      "city": "Deoband",
+      "phone": "+91-9876543288",
+      "address": "Gandhi Road, Deoband",
+      "price_range": "₹9,500 – ₹15,500",
+      "services": [
+        {
+          "name": "DJ for Cocktail",
+          "description": "High-energy tracks with LED dance floor",
+          "price": "₹13,000"
+        }
+      ],
+      "gallery": [
+        "https://img.freepik.com/premium-photo/dj-heart-club_965238-4315.jpg"
+      ],
+      "verified": true
+    },
+    {
+      "id": "deoband010",
+      "business_name": "Rhythm Nation DJ",
+      "owner_name": "Kunal Joshi",
+      "city": "Deoband",
+      "phone": "+91-9876543299",
+      "address": "Near Railway Station, Deoband",
+      "price_range": "₹10,000 – ₹18,000",
+      "services": [
+        {
+          "name": "Grand Wedding DJ",
+          "description": "Premium sound and synchronized lighting",
+          "price": "₹17,000"
+        }
+      ],
+      "gallery": [
+        "https://img.freepik.com/premium-photo/dj-heart-club_965238-4315.jpg"
+      ],
+      "verified": true
+    },
+    {
+      "id": "muz001",
+      "business_name": "D.J. Blue Night & Event Organiser",
+      "owner_name": "Ravi Chauhan",
+      "city": "Muzaffarnagar",
+      "phone": "+91-9876543101",
+      "address": "Kamdhenu Market, Ansari Rd, Civil Lines North",
+      "price_range": "₹10,000 – ₹18,000",
+      "services": [
+        {
+          "name": "Wedding DJ",
+          "description": "Premium sound and lighting setup",
+          "price": "₹16,000"
+        }
+      ],
+      "gallery": [
+        "https://img.freepik.com/premium-photo/dj-heart-club_965238-4315.jpg"
+      ],
+      "verified": true
+    },
+    {
+      "id": "muz002",
+      "business_name": "Basu DJ",
+      "owner_name": "Basu Singh",
+      "city": "Muzaffarnagar",
+      "phone": "+91-9876543102",
+      "address": "Keshavpuri, Civil Lines South",
+      "price_range": "₹9,000 – ₹15,000",
+      "services": [
+        {
+          "name": "Sangeet DJ",
+          "description": "Bollywood + Punjabi mix",
+          "price": "₹12,000"
+        }
+      ],
+      "gallery": [
+        "https://img.freepik.com/premium-photo/dj-heart-club_965238-4315.jpg"
+      ],
+      "verified": true
+    },
+    {
+      "id": "muz003",
+      "business_name": "Dj Pahiwal",
+      "owner_name": "Pahiwal Khan",
+      "city": "Muzaffarnagar",
+      "phone": "+91-9876543103",
+      "address": "Rajwaha Road, Balaji Mandir Rd",
+      "price_range": "₹8,000 – ₹14,000",
+      "services": [
+        {
+          "name": "Engagement DJ",
+          "description": "Compact setup with LED lights",
+          "price": "₹10,000"
+        }
+      ],
+      "gallery": [
+        "https://img.freepik.com/premium-photo/dj-heart-club_965238-4315.jpg"
+      ],
+      "verified": false
+    },
+    {
+      "id": "muz004",
+      "business_name": "Shubham DJ",
+      "owner_name": "Shubham Tyagi",
+      "city": "Muzaffarnagar",
+      "phone": "+91-9876543104",
+      "address": "Krishnapuri, Prempuri",
+      "price_range": "₹9,500 – ₹16,000",
+      "services": [
+        {
+          "name": "Reception DJ",
+          "description": "Elegant playlist with ambient lighting",
+          "price": "₹13,000"
+        }
+      ],
+      "gallery": [
+        "https://img.freepik.com/premium-photo/dj-heart-club_965238-4315.jpg"
+      ],
+      "verified": true
+    },
+    {
+      "id": "muz005",
+      "business_name": "Manjeet DJ Sound",
+      "owner_name": "Manjeet Singh",
+      "city": "Muzaffarnagar",
+      "phone": "+91-9876543105",
+      "address": "Shabudinpur Road, Near Mata Mandir",
+      "price_range": "₹10,000 – ₹17,000",
+      "services": [
+        {
+          "name": "DJ + Dhol Combo",
+          "description": "Fusion beats with live dhol",
+          "price": "₹15,000"
+        }
+      ],
+      "gallery": [
+        "https://img.freepik.com/premium-photo/dj-heart-club_965238-4315.jpg"
+      ],
+      "verified": true
+    },
+    {
+      "id": "muz006",
+      "business_name": "Saini DJ",
+      "owner_name": "Rohit Saini",
+      "city": "Muzaffarnagar",
+      "phone": "+91-9876543106",
+      "address": "Niyazupura Rd, Niyazupura",
+      "price_range": "₹9,000 – ₹14,000",
+      "services": [
+        {
+          "name": "Haldi DJ",
+          "description": "Colorful lighting and upbeat tracks",
+          "price": "₹11,000"
+        }
+      ],
+      "gallery": [
+        "https://img.freepik.com/premium-photo/dj-heart-club_965238-4315.jpg"
+      ],
+      "verified": false
+    },
+    {
+      "id": "muz007",
+      "business_name": "Akash DJ",
+      "owner_name": "Akash Verma",
+      "city": "Muzaffarnagar",
+      "phone": "+91-9876543107",
+      "address": "Ekta Vihar Colony, North Rampuri",
+      "price_range": "₹10,000 – ₹16,000",
+      "services": [
+        {
+          "name": "Full Wedding DJ",
+          "description": "Complete sound and light management",
+          "price": "₹14,500"
+        }
+      ],
+      "gallery": [
+        "https://img.freepik.com/premium-photo/dj-heart-club_965238-4315.jpg"
+      ],
+      "verified": true
+    },
+    {
+      "id": "muz008",
+      "business_name": "Mahadev DJ Sound",
+      "owner_name": "Mahadev Rana",
+      "city": "Muzaffarnagar",
+      "phone": "+91-9876543108",
+      "address": "Rampur Rd, Opp. Vill Rampur",
+      "price_range": "₹9,000 – ₹15,000",
+      "services": [
+        {
+          "name": "Mehndi DJ",
+          "description": "Soft lighting and curated playlist",
+          "price": "₹10,500"
+        }
+      ],
+      "gallery": [
+        "https://img.freepik.com/premium-photo/dj-heart-club_965238-4315.jpg"
+      ],
+      "verified": true
+    },
+    {
+      "id": "muz009",
+      "business_name": "MD Mustafa Dhol",
+      "owner_name": "Mustafa Ali",
+      "city": "Muzaffarnagar",
+      "phone": "+91-9876543109",
+      "address": "Company Bagh, Khalapar",
+      "price_range": "₹8,500 – ₹13,000",
+      "services": [
+        {
+          "name": "DJ for Cocktail",
+          "description": "High-energy tracks with LED dance floor",
+          "price": "₹12,000"
+        }
+      ],
+      "gallery": [
+        "https://img.freepik.com/premium-photo/dj-heart-club_965238-4315.jpg"
+      ],
+      "verified": true
+    },
+    {
+      "id": "muz010",
+      "business_name": "Garg Electronics DJ",
+      "owner_name": "Gaurav Garg",
+      "city": "Muzaffarnagar",
+      "phone": "+91-9876543110",
+      "address": "Krishna Complex, Rampuri",
+      "price_range": "₹10,000 – ₹18,000",
+      "services": [
+        {
+          "name": "Grand Wedding DJ",
+          "description": "Premium sound and synchronized lighting",
+          "price": "₹17,000"
+        }
+      ],
+      "gallery": [
+        "https://img.freepik.com/premium-photo/dj-heart-club_965238-4315.jpg"
+      ],
+      "verified": true
+    },
+
+ 
+    {
+      "id": "saharanpur001",
+      "business_name": "Sonu DJ",
+      "owner_name": "Sonu Malik",
+      "city": "Saharanpur",
+      "phone": "+91-9876543201",
+      "address": "Sarsawa, Saharanpur",
+      "price_range": "₹9,000 – ₹15,000",
+      "services": [
+        {
+          "name": "Engagement DJ",
+          "description": "Sound system rental with lighting",
+          "price": "₹11,000"
+        }
+      ],
+      "gallery": [
+        "https://img.freepik.com/premium-photo/dj-heart-club_965238-4315.jpg"
+      ],
+      "verified": true
+    },
+    {
+      "id": "saharanpur002",
+      "business_name": "Gupta Tent Light & DJ",
+      "owner_name": "Raj Gupta",
+      "city": "Saharanpur",
+      "phone": "+91-9876543202",
+      "address": "Sharda Nagar Labour Colony",
+      "price_range": "₹10,000 – ₹16,000",
+      "services": [
+        {
+          "name": "School Party DJ",
+          "description": "DJ setup for school and college events",
+          "price": "₹13,000"
+        }
+      ],
+      "gallery": [
+        "https://img.freepik.com/premium-photo/dj-heart-club_965238-4315.jpg"
+      ],
+      "verified": true
+    }
+
+
+
+
+
+
+
+
+
+
+]

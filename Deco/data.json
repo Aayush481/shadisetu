@@ -1,0 +1,202 @@
+[
+    {
+        "id": "deco001",
+        "business_name": "Elegant Wedding Decor",
+        "owner_name": "Ramesh Sharma",
+        "city": "Deoband",
+        "phone": "+91-9876543210",
+        "address": "Main Road, Deoband",
+        "price_range": "₹15,000 – ₹30,000",
+        "services": [
+            {
+                "name": "Stage Decoration",
+                "description": "Beautiful floral and light stage setup",
+                "price": "₹20,000"
+            }
+        ],
+        "gallery": [
+            "https://example.com/deco1.jpg"
+        ],
+        "verified": true
+    },
+    {
+        "id": "deco002",
+        "business_name": "Royal Decorators",
+        "owner_name": "Suresh Verma",
+        "city": "Muzaffarnagar",
+        "phone": "+91-9123456780",
+        "address": "Civil Lines, Muzaffarnagar",
+        "price_range": "₹18,000 – ₹35,000",
+        "services": [
+            {
+                "name": "Mandap Decoration",
+                "description": "Traditional mandap with modern lighting",
+                "price": "₹25,000"
+            }
+        ],
+        "gallery": [
+            "https://example.com/deco2.jpg"
+        ],
+        "verified": true
+    },
+    {
+        "id": "deco003",
+        "business_name": "Dreamy Wedding Planners",
+        "owner_name": "Anjali Gupta",
+        "city": "Saharanpur",
+        "phone": "+91-9876543211",
+        "address": "Clock Tower, Saharanpur",
+        "price_range": "₹20,000 – ₹40,000",
+        "services": [
+            {
+                "name": "Floral Decoration",
+                "description": "Exquisite floral arrangements for weddings",
+                "price": "₹22,000"
+            }
+        ],
+        "gallery": [
+            "https://example.com/deco3.jpg"
+        ],
+        "verified": true
+    },
+    {
+        "id": "deco004",
+        "business_name": "Blissful Events",
+        "owner_name": "Vikram Singh",
+        "city": "Deoband",
+        "phone": "+91-9876543212",
+        "address": "Station Road, Deoband",
+        "price_range": "₹12,000 – ₹25,000",
+        "services": [
+            {
+                "name": "Lighting Decoration",
+                "description": "Elegant lighting setups for all occasions",
+                "price": "₹15,000"
+            }
+        ],
+        "gallery": [
+            "https://example.com/deco4.jpg"
+        ],
+        "verified": true
+    },
+    {
+        "id": "deco005",
+        "business_name": "The Grand Decorators",
+        "owner_name": "Rajesh Kumar",
+        "city": "Muzaffarnagar",
+        "phone": "+91-9876543213",
+        "address": "Shiv Chowk, Muzaffarnagar",
+        "price_range": "₹25,000 – ₹50,000",
+        "services": [
+            {
+                "name": "Theme Decoration",
+                "description": "Custom themes for weddings and events",
+                "price": "₹30,000"
+            }
+        ],
+        "gallery": [
+            "https://example.com/deco5.jpg"
+        ],
+        "verified": true
+    },
+    {
+        "id": "deco006",
+        "business_name": "Heavenly Weddings",
+        "owner_name": "Pooja Sharma",
+        "city": "Saharanpur",
+        "phone": "+91-9876543214",
+        "address": "Ambala Road, Saharanpur",
+        "price_range": "₹18,000 – ₹28,000",
+        "services": [
+            {
+                "name": "Mandap Decoration",
+                "description": "Traditional and modern mandap setups",
+                "price": "₹20,000"
+            }
+        ],
+        "gallery": [
+            "https://example.com/deco6.jpg"
+        ],
+        "verified": true
+    },
+    {
+        "id": "deco007",
+        "business_name": "Elite Decorators",
+        "owner_name": "Manoj Tiwari",
+        "city": "Deoband",
+        "phone": "+91-9876543215",
+        "address": "Market Road, Deoband",
+        "price_range": "₹10,000 – ₹20,000",
+        "services": [
+            {
+                "name": "Stage Decoration",
+                "description": "Elegant stage setups with floral designs",
+                "price": "₹12,000"
+            }
+        ],
+        "gallery": [
+            "https://example.com/deco7.jpg"
+        ],
+        "verified": true
+    },
+    {
+        "id": "deco008",
+        "business_name": "Royal Touch Decor",
+        "owner_name": "Sunita Verma",
+        "city": "Muzaffarnagar",
+        "phone": "+91-9876543216",
+        "address": "City Center, Muzaffarnagar",
+        "price_range": "₹22,000 – ₹40,000",
+        "services": [
+            {
+                "name": "Lighting and Floral",
+                "description": "Combination of lighting and floral decorations",
+                "price": "₹25,000"
+            }
+        ],
+        "gallery": [
+            "https://example.com/deco8.jpg"
+        ],
+        "verified": true
+    },
+    {
+        "id": "deco009",
+        "business_name": "Elegant Affairs",
+        "owner_name": "Ravi Mehta",
+        "city": "Saharanpur",
+        "phone": "+91-9876543217",
+        "address": "Court Road, Saharanpur",
+        "price_range": "₹15,000 – ₹30,000",
+        "services": [
+            {
+                "name": "Custom Decoration",
+                "description": "Tailored decorations for weddings",
+                "price": "₹18,000"
+            }
+        ],
+        "gallery": [
+            "https://example.com/deco9.jpg"
+        ],
+        "verified": true
+    },
+    {
+        "id": "deco010",
+        "business_name": "Majestic Weddings",
+        "owner_name": "Karan Kapoor",
+        "city": "Deoband",
+        "phone": "+91-9876543218",
+        "address": "Main Bazaar, Deoband",
+        "price_range": "₹20,000 – ₹35,000",
+        "services": [
+            {
+                "name": "Luxury Decoration",
+                "description": "Premium decorations for grand weddings",
+                "price": "₹25,000"
+            }
+        ],
+        "gallery": [
+            "https://example.com/deco10.jpg"
+        ],
+        "verified": true
+    }
+]
