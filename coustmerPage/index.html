@@ -1,0 +1,143 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Customer Dashboard</title>
+  <style>
+    body {
+      font-family: Arial, sans-serif;
+      margin: 0;
+      display: flex;
+      background-color: #f4f6f8;
+    }
+    .sidebar {
+      width: 220px;
+      background: rgb(233, 111, 131);
+      color: white;
+      height: 150vh;
+      padding: 20px;
+    }
+    .sidebar h2 {
+      margin-bottom: 30px;
+    }
+    .sidebar a {
+      display: block;
+      color: white;
+      text-decoration: none;
+      margin: 15px 0;
+    }
+    .sidebar a:hover {
+      
+      padding-left: 10px;
+    }
+    .main-content {
+      flex: 1;
+      padding: 20px;
+    }
+    .topbar {
+      background: linear-gradient(135deg, #eb909f, #f8e3e3);
+      color: white;
+      padding: 15px;
+      border-radius: 8px;
+      margin-bottom: 20px;
+    }
+    .card {
+      background: white;
+      padding: 20px;
+      border-radius: 8px;
+      box-shadow: 0 2px 4px rgba(0,0,0,0.1);
+      margin-bottom: 20px;
+    }
+    .profile-container {
+      display: flex;
+      align-items: center;
+      gap: 20px;
+    }
+    .profile-container img {
+      width: 120px;
+      height: 120px;
+      border-radius: 50%;
+      object-fit: cover;
+      border: 3px solid rgb(252, 127, 148);
+    }
+    table {
+      width: 100%;
+      border-collapse: collapse;
+    }
+    table, th, td {
+      border: 1px solid #ddd;
+    }
+    th, td {
+      padding: 12px;
+      text-align: left;
+    }
+    th {
+      background: linear-gradient(135deg, #eb909f,  #f8e3e3);
+      color: white;
+    }
+  </style>
+</head>
+<body>
+  <div class="sidebar">
+    <h2>My Account</h2>
+    <a href="#">My Profile</a>
+    <a href="#">My Orders</a>
+    <a href="#">Wishlist</a>
+    <a href="#">Settings</a>
+    <a href="#">Logout</a>
+  </div>
+
+  <div class="main-content">
+    <div class="topbar">
+      <h2>Welcome, Abhishek!</h2>
+    </div>
+
+    <div class="card">
+      <h3>Profile Details</h3>
+      <div class="profile-container">
+        <img src="https://t3.ftcdn.net/jpg/06/19/26/46/360_F_619264680_x2PBdGLF54sFe7kTBtAvZnPyXgvaRw0Y.jpg" alt="Profile Photo">
+        <div>
+          <p><b>Name:</b> Abhishek Kumar</p>
+          <p><b>Email:</b> abhishek@example.com</p>
+          <p><b>Phone:</b> +91 9876543210</p>
+          <p><b>Address:</b> Lucknow, India</p>
+        </div>
+      </div>
+    </div>
+
+    <div class="card">
+      <h3>Recent Orders</h3>
+      <table>
+        <tr>
+          <th>Order ID</th>
+          <th>Product</th>
+          <th>Status</th>
+          <th>Date</th>
+        </tr>
+        <tr>
+          <td></td>
+          <td></td>
+          <td></td>
+          <td></td>
+        </tr>
+        <tr>
+          <td></td>
+          <td></td>
+          <td></td>
+          <td> </td>
+        </tr>
+      </table>
+    </div>
+
+    <div class="card">
+      <h3>Wishlist</h3>
+      <ul>
+        <li>Raj photographer</li>
+        <li>elight Decoration</li>
+        <li>Sonia Collection</li>
+      </ul>
+    </div>
+  </div>
+</body>
+</html>

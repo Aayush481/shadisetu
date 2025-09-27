@@ -133,7 +133,7 @@
       <form>
         <input type="email" placeholder="Enter your email" required>
         <input type="password" placeholder="Enter your password" required>
-        <button type="submit">Login</button>
+       <a href="" style="text-decoration:none,color:white" > <button type="submit" class="submit">Login</button></a>
       </form>
       <p class="links">Don’t have an account? <a href="#">Register here</a></p>
       <p class="links"><a href="#">Forgot Password?</a></p>
@@ -143,6 +143,15 @@
       <img style="height: 100%;" src="ikshana-productions-DTyA4JBJvqg-.png" alt="Right Image">
     </div> -->
   </div>
+
+  <script>
+    document.querySelector(".submit").addEventListener("click", function(event) {
+      event.preventDefault();
+      // alert("Login functionality is not implemented in this demo.");
+      document.location.href = "../coustmerPage/index.html";
+
+    });
+  </script>
 
 </body>
 </body>
